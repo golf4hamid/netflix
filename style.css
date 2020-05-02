@@ -1,0 +1,144 @@
+.box {
+    border: 4px dashed #c80000;
+    padding: 20px;
+    margin: 15px;
+    width: 410px;
+    background-color: #fcffcb;
+    font-family: arial;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+form {
+    padding: 0;
+    margin: 0;
+}
+
+.inp {
+    border: solid 5px #f30404;
+    border-radius: 0px;
+    outline: 0;
+    font: normal 16px/100% Verdana, Tahoma, sans-serif;
+    width: 320px;
+    height: 18px;
+    padding: 14px;
+    text-align: center;
+    margin: 15px;
+    background: #FFFFFF  left top repeat-x;
+}
+
+.myButton {
+    -moz-box-shadow: 0px 4px 0px 0px #fff;
+    -webkit-box-shadow: 0px 4px 0px 0px #fff;
+    box-shadow: 0px 0px 0px 4px #fff; /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(to bottom,  #ff3019 0%,#cf0404 100%);
+    font-style: normal;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    border: 2px dotted #fc5858;
+    display: inline-block;
+    color: #fff;
+    font-family: impact;
+    font-size: 36px;
+    font-weight: normal;
+    padding: 13px 26px;
+    text-decoration: none;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    text-shadow: 1px 2px 4px #000;
+}
+
+.myButton:hover {
+    background: #d2ff52; /* Old browsers */
+    background: -moz-linear-gradient(top,  #d2ff52 0%, #91e842 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d2ff52), color-stop(100%,#91e842)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #d2ff52 0%,#91e842 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #d2ff52 0%,#91e842 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #d2ff52 0%,#91e842 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #d2ff52 0%,#91e842 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=0 ); /* IE6-9 */
+    filter: alpha(opacity=100);
+    opacity: 1;
+    color: #000;
+    text-shadow: 1px 2px 4px #fff;
+    -moz-box-shadow: 0px 5px 0px 0px #fff;
+    -webkit-box-shadow: 0px 5px 0px 0px #fff;
+    box-shadow: 0px 0px 0px 5px #fff;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+body {
+    height: 100vh;
+    background-image: url('MA-fr-20200302-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+}
+
+.footer {
+    color: #969696;
+    font-family: verdana;
+    font-size: 11px;
+    margin: 15px;
+}
+
+.footer a {
+    color: #969696;
+    text-decoration: none;
+}
+
+.box2 {
+    background-color: #000;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+    filter: alpha(opacity=95);
+    opacity: .95;
+    -moz-box-shadow: 1px 1px 12px 1px #f11a1a;
+    -webkit-box-shadow: 1px 1px 12px 1px #f11a1a;
+    box-shadow: 1px 1px 12px 1px #f11a1a;
+    border-radius: 10px;
+    border: #f30404 8px dashed;
+}
+
+.box3 {
+    background: #ffe5ad; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffe5ad 0%, #ffd989 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffe5ad), color-stop(100%,#ffd989)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffe5ad 0%,#ffd989 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffe5ad 0%,#ffd989 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffe5ad 0%,#ffd989 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffe5ad 0%,#ffd989 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe5ad', endColorstr='#ffd989',GradientType=0 ); /* IE6-9 */
+    border: 1px solid #F7C96C;
+    width: 450px;
+    margin: 34px;
+    padding: 16px;
+    border-radius: 6px;
+}
+
+.head1 {
+    font-family: arial;
+    font-size: 30px;
+    color: #fff;
+    font-weight: normal;
+    letter-spacing: -1px;
+}
+
+.inbox {
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    color: #cbcbcb;
+    filter: dropshadow(color=#000, offx=1, offy=1);
+}
+
+.boom {
+    font-family: impact;
+    font-weight: normal;
+    letter-spacing: 0px;
+    font-size: 34px;
+    color: #f30404;
+}
